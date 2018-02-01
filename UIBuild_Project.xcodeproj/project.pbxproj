@@ -8,12 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		59B5A95D2022E0AF00ADDDFB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5A95C2022E0AF00ADDDFB /* AppDelegate.swift */; };
-		59B5A95F2022E0AF00ADDDFB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5A95E2022E0AF00ADDDFB /* ViewController.swift */; };
 		59B5A9622022E0AF00ADDDFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B5A9602022E0AF00ADDDFB /* Main.storyboard */; };
 		59B5A9652022E0AF00ADDDFB /* UIBuild_Project.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 59B5A9632022E0AF00ADDDFB /* UIBuild_Project.xcdatamodeld */; };
 		59B5A9672022E0AF00ADDDFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B5A9662022E0AF00ADDDFB /* Assets.xcassets */; };
 		59B5A96A2022E0AF00ADDDFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 59B5A9682022E0AF00ADDDFB /* LaunchScreen.storyboard */; };
 		59B5A9752022E0AF00ADDDFB /* UIBuild_ProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5A9742022E0AF00ADDDFB /* UIBuild_ProjectTests.swift */; };
+		59B5A9802022E23B00ADDDFB /* FirstVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5A97F2022E23B00ADDDFB /* FirstVC.swift */; };
+		59B5A9822022E25000ADDDFB /* SecondVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5A9812022E25000ADDDFB /* SecondVC.swift */; };
+		59B5A9842022E25F00ADDDFB /* ThirdVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B5A9832022E25F00ADDDFB /* ThirdVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +31,6 @@
 /* Begin PBXFileReference section */
 		59B5A9592022E0AF00ADDDFB /* UIBuild_Project.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIBuild_Project.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B5A95C2022E0AF00ADDDFB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		59B5A95E2022E0AF00ADDDFB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		59B5A9612022E0AF00ADDDFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		59B5A9642022E0AF00ADDDFB /* UIBuild_Project.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = UIBuild_Project.xcdatamodel; sourceTree = "<group>"; };
 		59B5A9662022E0AF00ADDDFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +39,9 @@
 		59B5A9702022E0AF00ADDDFB /* UIBuild_ProjectTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UIBuild_ProjectTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		59B5A9742022E0AF00ADDDFB /* UIBuild_ProjectTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBuild_ProjectTests.swift; sourceTree = "<group>"; };
 		59B5A9762022E0AF00ADDDFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B5A97F2022E23B00ADDDFB /* FirstVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstVC.swift; sourceTree = "<group>"; };
+		59B5A9812022E25000ADDDFB /* SecondVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondVC.swift; sourceTree = "<group>"; };
+		59B5A9832022E25F00ADDDFB /* ThirdVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,8 +84,10 @@
 			isa = PBXGroup;
 			children = (
 				59B5A95C2022E0AF00ADDDFB /* AppDelegate.swift */,
-				59B5A95E2022E0AF00ADDDFB /* ViewController.swift */,
 				59B5A9602022E0AF00ADDDFB /* Main.storyboard */,
+				59B5A97F2022E23B00ADDDFB /* FirstVC.swift */,
+				59B5A9812022E25000ADDDFB /* SecondVC.swift */,
+				59B5A9832022E25F00ADDDFB /* ThirdVC.swift */,
 				59B5A9662022E0AF00ADDDFB /* Assets.xcassets */,
 				59B5A9682022E0AF00ADDDFB /* LaunchScreen.storyboard */,
 				59B5A96B2022E0AF00ADDDFB /* Info.plist */,
@@ -203,8 +209,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				59B5A9652022E0AF00ADDDFB /* UIBuild_Project.xcdatamodeld in Sources */,
-				59B5A95F2022E0AF00ADDDFB /* ViewController.swift in Sources */,
+				59B5A9802022E23B00ADDDFB /* FirstVC.swift in Sources */,
+				59B5A9822022E25000ADDDFB /* SecondVC.swift in Sources */,
 				59B5A95D2022E0AF00ADDDFB /* AppDelegate.swift in Sources */,
+				59B5A9842022E25F00ADDDFB /* ThirdVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
